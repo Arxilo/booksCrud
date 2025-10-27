@@ -1,11 +1,31 @@
+/*
+
+OPEN BOOK LIBRARY 📚 (Library Invent)
+
+You need to implement a login with a maximum of three attempts
+If the user fails more than three times you'll block the account and end the projects running.
+
+    1. You will register Books,
+    2. Look for specific Books based on their ISBN,
+    3. Delete Books ,
+    4. and show the full list of them
+    5. Logout
+
+Data to use
+
+    1.  ISBN (International Standard Book Number): Book Identifier.
+    2.  Book's Title
+    3.  Author
+    4.  Gender
+    5.  Unit Price
+    6.  Stock
+
+*/
 package CESDE.BACKEND;
 import CESDE.BACKEND.colors.TerminalColors;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-
-
-
 
 public class Main {
     public static void main(String[] args) {
